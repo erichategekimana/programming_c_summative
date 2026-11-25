@@ -3,3 +3,28 @@
 [2026-11-25 14:15:12] [WARNING] High CPU usage detected: 10.83% (Threshold: 10%).
 [2026-11-25 14:15:12] [WARNING] Processes exceeding 10% CPU: PID 15774 (chrome: 37.2%); PID 8623 (chrome: 16.8%); 
 [2026-11-25 14:21:38] [INFO   ] System Health & Resource Monitoring Manager exited.
+[2026-11-25 14:23:59] [INFO   ] System Health & Resource Monitoring Manager started.
+[2026-11-25 14:25:01] [INFO   ] Viewed system information (Host: eric-ThinkPad-T495, Kernel: 7.0.0-28-generic).
+[2026-11-25 14:25:43] [WARNING] High CPU usage detected: 12.06% (Threshold: 10%).
+[2026-11-25 14:25:43] [WARNING] Processes exceeding 10% CPU: PID 15774 (chrome: 36.3%); PID 8623 (chrome: 17.2%); 
+[2026-11-25 14:26:37] [INFO   ] Monitored CPU usage: 10.80% (Threshold: 30%).
+[2026-11-25 14:26:37] [WARNING] Processes exceeding 30% CPU: PID 15774 (chrome: 36.2%); 
+[2026-11-25 14:26:47] [INFO   ] Monitored CPU usage: 9.82% (Threshold: 70%).
+[2026-11-25 14:26:54] [WARNING] High CPU usage detected: 11.34% (Threshold: 1%).
+[2026-11-25 14:26:55] [WARNING] Processes exceeding 1% CPU: PID 15774 (chrome: 36.2%); PID 8623 (chrome: 17.3%); PID 8463 (chrome: 8.6%); PID 37898 (chrome: 7.6%); PID 6584 (chrome: 7.0%); PID 6642 (chrome: 6.9%); PID 41644 (antigravity-ide: 4.9%); PID 4347 (gnome-shell: 4.0%); PID 37712 (chrome: 2.4%); PID 48089 (chrome: 1.6%); PID 41545 (antigravity-ide: 1.3%); PID 41588 (antigravity-ide: 1.1%); 
+[2026-11-25 14:28:27] [WARNING] High CPU usage detected: 10.33% (Threshold: 1%).
+[2026-11-25 14:28:27] [WARNING] Processes exceeding 1% CPU: PID 15774 (chrome: 36.1%); PID 8623 (chrome: 17.3%); PID 8463 (chrome: 8.7%); PID 48647 (protonvpn-app: 7.8%); PID 37898 (chrome: 7.6%); PID 6584 (chrome: 7.0%); PID 6642 (chrome: 6.9%); PID 41644 (antigravity-ide: 4.8%); PID 4347 (gnome-shell: 4.0%); PID 37712 (chrome: 2.4%); PID 41545 (antigravity-ide: 1.3%); PID 49038 (btop: 1.2%); PID 41588 (antigravity-ide: 1.1%); 
+[2026-11-25 14:33:28] [WARNING] High memory utilization detected: 84.71% (5771/6813 MB, Threshold: 40%).
+[2026-11-25 14:33:50] [WARNING] High memory utilization detected: 84.68% (5769/6813 MB, Threshold: 10%).
+[2026-11-25 14:33:58] [INFO   ] Monitored memory usage: 84.79% (5777/6813 MB, Threshold: 90%).
+[2026-11-25 14:34:53] [WARNING] High memory utilization detected: 84.78% (5776/6813 MB, Threshold: 20%).
+[2026-11-25 14:35:09] [WARNING] Disk threshold exceeded on / (/dev/sda2): 91% used (Threshold: 20%).
+[2026-11-25 14:35:09] [WARNING] Disk threshold exceeded on /sys/firmware/efi/efivars (efivarfs): 57% used (Threshold: 20%).
+[2026-11-25 14:35:30] [INFO   ] Monitored disk utilization (Threshold: 95%). No warnings triggered.
+[2026-11-25 14:36:38] [INFO   ] Listed top 20 running processes.
+[2026-11-25 14:42:28] [INFO   ] Searched processes for '47057' (0 matches found).
+[2026-11-25 14:43:10] [INFO   ] Searched processes for '49753' (matches found).
+[2026-11-25 14:44:13] [ACTION ] Terminated process PID 49753 (VirtualBox) with SIGTERM.
+[2026-11-25 14:46:02] [ACTION ] Generated system health report: /home/eric/c/assignments/programming_c_summative/project_2/system_health_manager/system_health_report_20261125_144602.txt
+[2026-11-25 14:47:05] [ERROR  ] Invalid menu selection entered: ''.
+[2026-11-25 14:47:44] [INFO   ] System Health & Resource Monitoring Manager exited.
