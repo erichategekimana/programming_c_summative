@@ -1,0 +1,5 @@
+[2026-11-25 14:14:24] [INFO   ] System Health & Resource Monitoring Manager started.
+[2026-11-25 14:14:38] [INFO   ] Viewed system information (Host: eric-ThinkPad-T495, Kernel: 7.0.0-28-generic).
+[2026-11-25 14:15:12] [WARNING] High CPU usage detected: 10.83% (Threshold: 10%).
+[2026-11-25 14:15:12] [WARNING] Processes exceeding 10% CPU: PID 15774 (chrome: 37.2%); PID 8623 (chrome: 16.8%); 
+[2026-11-25 14:21:38] [INFO   ] System Health & Resource Monitoring Manager exited.
