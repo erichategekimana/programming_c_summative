@@ -1,0 +1,8 @@
+Connected Healthcare and Remote Patient Monitoring
+Hospitals increasingly rely on wearable medical devices for post-operative care.
+An IoT heart-rate monitor streams vital signs continuously to nursing dashboards.
+Early anomaly alerts help clinicians intervene before a minor issue becomes an emergency.
+Security and patient privacy are critical when designing medical iot platforms.
+Encrypted transport protocols protect sensitive telemetry between home gateways and clinics.
+As battery technology improves, compact IoT patches are replacing bulky bedside equipment.
+

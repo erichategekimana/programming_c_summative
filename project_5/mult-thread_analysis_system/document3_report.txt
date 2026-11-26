@@ -1,0 +1,11 @@
+============================================================
+             DOCUMENT SEARCH & ANALYSIS REPORT
+============================================================
+Input File            : document3.txt
+Search Keyword        : IoT (case-insensitive)
+Total Lines Processed : 9
+Keyword Occurrences   : 3
+Matching Lines Count  : 3
+Matching Line Numbers : 4, 7, 9
+Processing Status     : SUCCESS (Matches Found)
+============================================================

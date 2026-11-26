@@ -1,0 +1,11 @@
+============================================================
+             DOCUMENT SEARCH & ANALYSIS REPORT
+============================================================
+Input File            : document4_nomatch.txt
+Search Keyword        : IoT (case-insensitive)
+Total Lines Processed : 6
+Keyword Occurrences   : 0
+Matching Lines Count  : 0
+Matching Line Numbers : None (keyword not found)
+Processing Status     : SUCCESS (No Matches Found)
+============================================================

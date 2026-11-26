@@ -1,0 +1,7 @@
+Relational Database Normalization Overview
+First normal form requires that every column hold atomic values without repeating groups.
+Second normal form eliminates partial dependencies on composite primary keys.
+Third normal form removes transitive dependencies between non-key attributes.
+Well-normalized schemas reduce data redundancy and prevent update anomalies.
+Database administrators balance normalization with query performance through indexing.
+
