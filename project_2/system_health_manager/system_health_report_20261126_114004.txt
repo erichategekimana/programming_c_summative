@@ -1,0 +1,38 @@
+======================================================================
+SYSTEM HEALTH REPORT
+Generated At : 2026-11-26 11:40:04 CAT
+Hostname     : eric-ThinkPad-T495
+OS / Kernel  : Ubuntu 24.04.5 LTS | 7.0.0-28-generic
+Uptime       : up 1 day, 5 hours, 39 minutes
+======================================================================
+
+[1] CPU UTILIZATION
+----------------------------------------------------------------------
+Overall CPU Usage : 28.24%
+Logical Cores     : 8
+Load Average      : 1.94, 2.23, 1.96
+
+Top 5 CPU Processes:
+    PID USER     %CPU %MEM COMMAND
+ 121484 eric      300  0.0 ps
+ 120268 eric     29.9  3.6 antigravity-ide
+ 121440 eric     22.4  5.1 chrome
+ 120359 eric     17.4  1.8 antigravity-ide
+ 120167 eric     13.2  1.6 antigravity-ide
+
+[2] MEMORY UTILIZATION
+----------------------------------------------------------------------
+               total        used        free      shared  buff/cache   available
+Mem:           6.7Gi       6.2Gi       170Mi        20Mi       594Mi       436Mi
+Swap:           15Gi       6.9Gi       9.1Gi
+
+[3] DISK UTILIZATION
+----------------------------------------------------------------------
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       233G  201G   21G  91% /
+efivarfs        154K   84K   66K  57% /sys/firmware/efi/efivars
+/dev/sda1       1.1G  6.3M  1.1G   1% /boot/efi
+
+======================================================================
+END OF REPORT
+======================================================================

@@ -28,3 +28,14 @@
 [2026-11-25 14:46:02] [ACTION ] Generated system health report: /home/eric/c/assignments/programming_c_summative/project_2/system_health_manager/system_health_report_20261125_144602.txt
 [2026-11-25 14:47:05] [ERROR  ] Invalid menu selection entered: ''.
 [2026-11-25 14:47:44] [INFO   ] System Health & Resource Monitoring Manager exited.
+[2026-11-26 11:08:55] [INFO   ] System Health & Resource Monitoring Manager started.
+[2026-11-26 11:10:57] [INFO   ] Viewed system information (Host: eric-ThinkPad-T495, Kernel: 7.0.0-28-generic).
+[2026-11-26 11:11:53] [ERROR  ] Invalid menu selection entered: ''.
+[2026-11-26 11:12:04] [INFO   ] System Health & Resource Monitoring Manager started.
+[2026-11-26 11:14:13] [ERROR  ] Invalid menu selection entered: ''.
+[2026-11-26 11:14:35] [INFO   ] System Health & Resource Monitoring Manager started.
+[2026-11-26 11:14:53] [INFO   ] System Health & Resource Monitoring Manager started.
+[2026-11-26 11:15:04] [INFO   ] Viewed system information (Host: eric-ThinkPad-T495, Kernel: 7.0.0-28-generic).
+[2026-11-26 11:19:08] [WARNING] High memory utilization detected: 74.28% (5061/6813 MB, Threshold: 70%).
+[2026-11-26 11:28:10] [INFO   ] Monitored CPU usage: 6.86% (Threshold: 90%).
+[2026-11-26 11:40:04] [ACTION ] Generated system health report: /home/eric/c/assignments/programming_c_summative/project_2/system_health_manager/system_health_report_20261126_114004.txt
