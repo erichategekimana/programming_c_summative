@@ -167,15 +167,20 @@ int loadRecordsFromFile(StudentDatabase *db, const char *filename) {
         int year = atoi(yearStr);
         int numCourses = atoi(courseCountStr);
 
-        if (!registerStudent(db, id, first, last, prog, year)) {
-            fprintf(stderr, "[ERROR] Failed to reconstruct student '%s' in memory.\n", id);
+        /* Copy student ID before subsequent fgets() calls overwrite 'line' */
+        char studentId[MAX_ID_LEN];
+        strncpy(studentId, id, MAX_ID_LEN - 1);
+        studentId[MAX_ID_LEN - 1] = '\0';
+
+        if (!registerStudent(db, studentId, first, last, prog, year)) {
+            fprintf(stderr, "[ERROR] Failed to reconstruct student '%s' in memory.\n", studentId);
             fclose(fp);
             return 0;
         }
 
         for (int j = 0; j < numCourses; j++) {
             if (!fgets(line, sizeof(line), fp)) {
-                fprintf(stderr, "[ERROR] Missing course record for student '%s'.\n", id);
+                fprintf(stderr, "[ERROR] Missing course record for student '%s'.\n", studentId);
                 fclose(fp);
                 return 0;
             }
@@ -188,15 +193,15 @@ int loadRecordsFromFile(StudentDatabase *db, const char *filename) {
             char *maxStr = strtok(NULL, "|");
 
             if (!cTag || strcmp(cTag, "COURSE") != 0 || !cCode || !cName || !marksStr || !maxStr) {
-                fprintf(stderr, "[ERROR] Malformed course record for student '%s'.\n", id);
+                fprintf(stderr, "[ERROR] Malformed course record for student '%s'.\n", studentId);
                 fclose(fp);
                 return 0;
             }
 
             double marks = atof(marksStr);
             double maxMarks = atof(maxStr);
-            if (!addCourseToStudent(db, id, cCode, cName, marks, maxMarks)) {
-                fprintf(stderr, "[ERROR] Failed to reconstruct course '%s' for student '%s'.\n", cCode, id);
+            if (!addCourseToStudent(db, studentId, cCode, cName, marks, maxMarks)) {
+                fprintf(stderr, "[ERROR] Failed to reconstruct course '%s' for student '%s'.\n", cCode, studentId);
                 fclose(fp);
                 return 0;
             }

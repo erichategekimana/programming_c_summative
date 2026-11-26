@@ -1,0 +1,10 @@
+STUDENT_COUNT|4
+STUDENT|STU001|Eric|Hategekimana|Software Engineering|2|1
+COURSE|CS001|programming in c|90.00|100.00
+STUDENT|STU03|GRACE|developer|software engineering|2|1
+COURSE|CS03|programmin in c|90.00|100.00
+STUDENT|STU01|helen|developer|software engineering|3|1
+COURSE|CS04|mobile application|80.00|100.00
+STUDENT|STU02|jeff|nkemu|sofware engineering|3|2
+COURSE|CS02|programming in c|30.00|100.00
+COURSE|CS05|professional foundation|49.00|100.00
