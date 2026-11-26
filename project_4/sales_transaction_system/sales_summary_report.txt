@@ -1,0 +1,16 @@
+
+======================================================================
+                    SALES TRANSACTION SUMMARY REPORT
+======================================================================
+Total Number of Transactions     : 5
+Total Quantity of Products Sold  : 23 unit(s)
+Total Revenue                    : 3425.00
+Average Transaction Value        : 685.00
+Highest Transaction Value        : 1700.00 (ID: TX001 | Product: Laptop)
+Lowest Transaction Value         : 240.00 (ID: TX005 | Product: USB-C Hub)
+----------------------------------------------------------------------
+SELECTED PRODUCT ANALYSIS ('laptop')
+  Matching Transactions          : 2
+  Units Sold                     : 3
+  Revenue Generated              : 2550.00
+======================================================================
