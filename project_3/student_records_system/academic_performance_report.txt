@@ -3,12 +3,12 @@
               ACADEMIC PERFORMANCE ANALYTICS REPORT
 ======================================================================
 Total Registered Students        : 4
-Total Courses Registered         : 5
-Overall Average Performance      : 74.88% (across 4 graded student(s))
+Total Courses Registered         : 6
+Overall Average Performance      : 79.42% (across 4 graded student(s))
 Highest Academic Average         : 90.00% (Eric Hategekimana - STU001)
-Lowest Academic Average          : 39.50% (jeff nkemu - STU02)
-Students Passing (>= 50%)        : 3
-Students Failing (< 50%)         : 1
+Lowest Academic Average          : 57.67% (jeff nkemu - STU02)
+Students Passing (>= 50%)        : 4
+Students Failing (< 50%)         : 0
 
 ----------------------------------------------------------------------
 AVERAGE PERFORMANCE PER COURSE
@@ -20,6 +20,7 @@ CS03         programmin in c                1           90.00%
 CS04         mobile application             1           80.00%
 CS02         programming in c               1           30.00%
 CS05         professional foundation        1           49.00%
+cs07         mobile application             1           94.00%
 
 ----------------------------------------------------------------------
 ENROLLMENT BY PROGRAMME OF STUDY
